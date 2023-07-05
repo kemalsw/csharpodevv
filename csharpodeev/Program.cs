@@ -10,20 +10,26 @@ namespace csharpodeev
     {
         static void Main(string[] args)
         {
-            int x = 3;
-            int y = 3;
-            y = y + 2;
-            Console.WriteLine(y);
-            y += 2;
-            Console.WriteLine(y);
-            y /= 1;
-            Console.WriteLine(y);
-            x += 2;
-            Console.WriteLine(x);
+            int sayi1 = 25;
+
+            string sayi = sayi1.ToString();
+
+            int sayi2 = 24;
+
+            string sayii = sayi2.ToString();
+
+            Console.WriteLine(sayii+sayi);
+            
+
+
+
+            string rakam = "25";
+            string rakam1 = "24";
+            int degistir = Convert.ToInt32(rakam);
+            int degistir1 = Convert.ToInt32(rakam1);
+            int toplam = degistir + degistir1;
+            Console.WriteLine(toplam);
             Console.ReadLine();
-
-
-             
         }
     }
 }
